@@ -1,4 +1,42 @@
-img{
-    width: 200px;
+.navbar{
+    padding: 0;
+    background-color:#D7F9F1;
+}
+.h1{
+    /* background: A; */
+    font-size: 35px;
+    margin-left: 20px;
+}
+.link{
+    padding-right:25px;
+}
+.p{
+    border-left: solid black;
+    border-right: solid black;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+body{
+    background-color: rgb(133, 122, 122);
+}
+h4{
+    border-bottom:solid black;
+}
+.me{
     height: 200px;
+    width: 200px;
+}
+.card{
+    margin-top: 20px;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    height:300px;
+    width:100%;
+}
+.card{
+    height: 600px;
 }
