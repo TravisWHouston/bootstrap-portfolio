@@ -32,6 +32,8 @@ h4{
 .pic{
     display: flex;
     justify-content: center;
+    align-items: flex-end;
+    text-align: center;
 }
 textarea{
     height:300px;
@@ -39,4 +41,29 @@ textarea{
 }
 .card{
     height: 600px;
+}
+.label{
+    position:absolute;
+    width: 150px;
+    border-radius: 5px;
+    background-color:#D7F9F1;
+}
+.img-thumbnail{
+    width: 150px;
+}
+@media only screen and (max-width:640px){
+    .navbar{
+        display: flex;
+        justify-content: center;
+    }
+    .img-thumbnail{
+        height: 100px;
+        width: 100px;
+    }
+    .label{
+        width: 100px;
+    }
+    .pic{
+        padding-bottom: 7px;
+    }
 }
