@@ -3,12 +3,17 @@
     background-color:#D7F9F1;
 }
 .h1{
-    /* background: A; */
+    background-color: #4F345A;
     font-size: 35px;
     margin-left: 20px;
 }
 .link{
     padding-right:25px;
+    font-size: 20px;
+    
+}
+a{
+    color: black;
 }
 .p{
     border-left: solid black;
@@ -17,7 +22,7 @@
     padding-left: 3px;
 }
 body{
-    background-color: rgb(133, 122, 122);
+    background-color: black;
 }
 h4{
     border-bottom:solid black;
@@ -41,6 +46,7 @@ textarea{
 }
 .card{
     height: 600px;
+    border: solid 5px #4F345A;
 }
 .label{
     position:absolute;
@@ -56,6 +62,12 @@ textarea{
         display: flex;
         justify-content: center;
     }
+    .navbar-brand{
+        margin: 0px;
+        text-align: center;
+        width: 100%;
+    }
+
     .img-thumbnail{
         height: 100px;
         width: 100px;
@@ -65,5 +77,12 @@ textarea{
     }
     .pic{
         padding-bottom: 7px;
+    }
+    .link{
+        padding:0;
+    }
+    .me{
+        height: 100px;
+        width: 100px;
     }
 }
